@@ -2,7 +2,6 @@
 var katzDeli = [];
 var katzDeli = []; // At the beginning of the day,
 //the deli is empty and is represented by an empty array
-//<<<<<<<<<--------------- in the instructions <<<<<<
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
@@ -47,7 +46,6 @@ function currentLine(katzDeli) {
   return(`The line is currently:` + line);
 }
 
-//WORKS:::::
 
 // function currentLine(katzDeli) {
 //
